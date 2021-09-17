@@ -8,9 +8,9 @@ During the analysis, I paid attention to two areas of relation:
 Both of these relations have an impact on a campaign's outcome, and we'll take a closer look at the evidence for both.
 
 ### Campaign's Outcome Based on Launch Date
-
-
-
+First, Louise wanted to take a closer look at the relation between a campaign's launch date and the campaign's outcome. To do this, I created a pivot table that organizes the outcome of every campaign by the month they were launched. Specifically, the pivot table pulled from the main kickstarter worksheet: column F labeled Outcomes, and column S labeled Date Created Conversion. From there, I was able to utilize the pivot table filter to ensure that we were only looking at campaigns in the theater category, as well as enable Louise to look at each year individually if she wanted to dive deeper into a specific range. From there, I created this pivot line chart that maps the data from the pivot table into a month-by-month measure of successful, failed, and canceled campaigns.
+![](resources/Theater_Outcomes_vs_Launch.png)
+Similar to the pivot table, Louise could filter this chart to, for example, view only successful, a specific year, or a different category altogether. One caution during this process: It could easy to mistake a launch date and an end date due to how close they are in the source worksheet and how close most of them are in date. I confirmed that the dates I used were the launch dates. From simply looking at the chart, we can clearly see that some months perform better than others, and we can make informed decisions off of this evidence. We'll revisit this shortly in our results analysis.
 
 
 The first major marker that indicates a campaign success/failure is the month in which it is launched. All data indicates that are best times of the year to launch a campaign. The two months I would suggest to launch a campaign is in the month of February or May.
