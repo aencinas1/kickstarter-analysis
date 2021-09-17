@@ -1,9 +1,18 @@
 # An Analysis of Kickstarter Campaigns' Outcomes and Their Relation to Launch Date and Funding Goal
 Louise noticed that one of her plays, *Fever*, came close to its funding goal in a short period of time. This led Louise to ask the question, is there a correlation between the launch date and the funding goal of a campaign and the outcome of the campaign? In this analysis, I have identified clear evidence that there is, in fact, a strong relation between the launch date/funding goal of a campaign and that campaign's outcome. This evidence also suggests there are decision that Louise could make to directly impact the success rate of her future campaigns.
 ---
----
----
-## Campaign Launch Dates and How It Impacts Success
+## The Analysis
+During the analysis, I paid attention to two areas of relation:
+  1. The relation between a campaign's launch date and the campaign's outcome.
+  2. The relation between a campaign's funding goal and the campaign's outcome.
+Both of these relations have an impact on a campaign's outcome, and we'll take a closer look at the evidence for both.
+
+### Campaign's Outcome Based on Launch Date
+
+
+
+
+
 The first major marker that indicates a campaign success/failure is the month in which it is launched. All data indicates that are best times of the year to launch a campaign. The two months I would suggest to launch a campaign is in the month of February or May.
 ---
 ![Outcomes_Based_on_Launch_Date](https://github/aencinas/kickstarter-analysis/assets/images/Outcomes_Based_on_Launch_Date.png)
