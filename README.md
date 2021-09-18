@@ -16,22 +16,10 @@ First, Louise wanted to take a closer look at the relation between a campaign's 
 Similar to the pivot table, Louise could filter this chart to, for example, view only successful, a specific year, or a different category altogether. One caution during this process: It could easy to mistake a launch date and an end date due to how close they are in the source worksheet and how close most of them are in date. I confirmed that the dates I used were the launch dates. From simply looking at the chart, we can clearly see that some months perform better than others, and we can make informed decisions off of this evidence. We'll revisit this shortly in our results analysis.
 
 ### Campaign's Outcome Based on Funding Goal
-Additionally, Louise wanted to determine if there was a relation between a campaign's funding goal and its outcome. To determine if this was the case, I created another table. My 
+Additionally, Louise wanted to determine if there was a relation between a campaign's funding goal and its outcome. To determine if this was the case, I created another table. I broke down the funding goals into smaller ranges so that my row headers were a range of funding goals (Less than $1000, $1000-$4999, $5000-$9999, etc.) and my column headers were measurements of outcomes (Number of successful/failed/canceled campaigns, total campaigns, and the percentage of successful/failed/canceled campaigns). From there, I used a COUNTIFS function to search through the main kickstarter sheet columns to get the total amount of successful/failed/canceled campaigns for each range. For example, For the row header Less Than 1000, the COUNTIFS function searched through column D (Goal) for a value less than 1000, column F (Outcome) for a value of "successful", and column R (Subcategory) for a value of "plays". This identified every successful play campaign with a goal of 1000 or less. I repeated this for every goal range and each of their outcome values (successful/failed/canceled). I then used the SUM function to find the total number of campaigns in each goal range. 
 
 
-The first major marker that indicates a campaign success/failure is the month in which it is launched. All data indicates that are best times of the year to launch a campaign. The two months I would suggest to launch a campaign is in the month of February or May.
----
-![Outcomes_Based_on_Launch_Date](https://github/aencinas/kickstarter-analysis/assets/images/Outcomes_Based_on_Launch_Date.png)
 
-Februray and May are the best options because campaigns that are launched in those months see a higher success rate, while also experiencing a lower failure rate. Similarly, June could also be an acceptable month to launch a campaign, but the difference narrows (Successful campaigns and failed campaigns are closer in number). With this information, launching a campaign in the months of December, September, and January should be avoided as the difference is significantly smaller, and in December's case, more campaigns fail than succeed.
----
----
-## Campaign Goals and How They Impact Success
-Another indicator of success, as it directly relates to campaigns for plays in the United States, is the goal of the campaign. I found that, typically, the higher the goal, the less likely it will succeed. The average goal of an unsuccessful campaign was $10,554, while the average of successful campaigns was $5,049. Further expressing the coorilation, the average dollars pledged to successful campaigns was $5,602, while unsuccessful campaigns only managed to average $559 pledged. It appears that total cost has an impact on whether a campaign will succeed, and $5,000 is a safe target for a goal to give a campaign a high chance of success.
----
----
-## Campaign Types and Which Is Most Likely to Succeed
-Finally, with all campaign data accounted for, I was able to find a total success/failure count of each type of campaign. Luckily, it appears that there is the most interest in theater-specific campaigns. There are also areas that have much less attention, and even appear to have a higher failure rate. 
 ---
 ![Parent_Category_Outcomes](/assets/images/Parent_Category_Outcomes.png)
 ---
