@@ -29,7 +29,9 @@ From the Outcomes Based on Launch Date chart, we can conclude that there is a "b
 
 From the Outcomes Based on Goal chart, we can determine that, ultimately, keeping a play campaign funding goal under $1000 yields the most success. In fact, 76% of play campaigns with a funding goal under $1000 were successful. There is some flexability here as 73% of campaigns with a goal of $1000-$4999 were also successful, but I would certainly say the lower the goal the better the chance of success. Also, notice that campaigns with a goal of $35000-$44999 had a 66% success rate. However, with a sample size so small (9 total) I would not recommend a goal that large. Of note, there were no canceled play campaigns.
 
+There are some limitations of the data to consider. First, we only have data provided by Louise. There are certainly more artists out there funding their own projects. We could increase the variety of the data and increase the sample sizes to get more accurate data. The sample size I would consider a limiting factor, as the Outcomes Based on Launch Date pivot table accounts for about 100 campaigns per month. Ideally I would like that sample size to be larger. Another limitation is that fact that we only account for Kickstarter. We could also consider analyzing other methods of funding productions to see if our findings are supported outside of Kickstarter.
 
+Finally, we could also consider additional tables/graphs to find information relevant to what Louise seeks. For example, we could implement a Clustered Bar Graph to see how much money was pledged next to the funding goal of a sample of campaigns. For all we know, the mid-range funding goal campaigns only failed by a very small margin. A Clustered Bar Graph would help us to see how far off from the goal a campaign actually was, and if it is marginal, perhaps the launch date was the deciding factor that ultimately caused it to fail. 
 
 
 
