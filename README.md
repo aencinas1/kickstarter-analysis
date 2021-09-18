@@ -27,7 +27,9 @@ There are again clear relations between the funding goal of a campaign and that 
 ## The Results
 From the Outcomes Based on Launch Date chart, we can conclude that there is a "best time" to launch a campaign. The chart shows clearly that theater campaigns launched in May are the most successful. In fact, May through July is significantly more successful than the rest of the year, and this pattern persists even when the theater filter is removed. If Louise is considering launching additional campaigns, she should do so in May, or at least between May and July. She should definitely avoid December, as the amount of successful and failed campaigns is about equal. Interestingly, there were no canceled campaigns in October, but summer months still show the most promise.
 
-From the Outcomes Based on Goal chart, we can determine that, ultimately, keeping a play campaign funding goal under $1000 yields the most success. In fact, 76% of play campaigns with a funding goal under $1000 were successful.
+From the Outcomes Based on Goal chart, we can determine that, ultimately, keeping a play campaign funding goal under $1000 yields the most success. In fact, 76% of play campaigns with a funding goal under $1000 were successful. There is some flexability here as 73% of campaigns with a goal of $1000-$4999 were also successful, but I would certainly say the lower the goal the better the chance of success. Also, notice that campaigns with a goal of $35000-$44999 had a 66% success rate. However, with a sample size so small (9 total) I would not recommend a goal that large. Of note, there were no canceled play campaigns.
+
+
 
 
 
